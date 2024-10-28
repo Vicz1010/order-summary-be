@@ -1,0 +1,55 @@
+{
+	"info": {
+		"_postman_id": "9357276f-2eb9-4331-876e-46a5604ab985",
+		"name": "KatKin",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "30861637"
+	},
+	"item": [
+		{
+			"name": "Get Delivery details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/comms/your-next-delivery/:userId",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"comms",
+						"your-next-delivery",
+						":userId"
+					],
+					"variable": [
+						{
+							"key": "userId",
+							"value": "08aff08b-7346-414a-8145-31a0e5c6297b"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User IDs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/comms/user-ids",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"comms",
+						"user-ids"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
